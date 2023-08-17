@@ -20,7 +20,7 @@ Body language is a crucial aspect of human communication, often conveying emotio
 
 ## Technical Overview of Mediapipe
 ![MediaPipe](https://editor.analyticsvidhya.com/uploads/53474logo_horizontal_color.png)
-Mediapipe, developed by Google, is a powerful library that provides a wide range of pre-trained models for various computer vision tasks, including facial landmark detection. It allows us to easily extract facial landmarks from images and video streams, enabling accurate tracking of key points on the face, such as eyes, nose, mouth, and eyebrows. This technology forms the backbone of our project, enabling us to analyze and interpret facial expressions.
+Mediapipe, developed by Google, is a powerful library that provides a wide range of pre-trained models for various computer vision tasks, including facial landmark detection. It allowed me to easily extract facial landmarks from images and video streams, enabling accurate tracking of key points on the face, such as eyes, nose, mouth, and eyebrows. This technology forms the backbone of our project, enabling us to analyze and interpret facial expressions.
 
 ## Creating the Dataset
 

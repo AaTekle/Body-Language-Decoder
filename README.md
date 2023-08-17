@@ -24,7 +24,7 @@ Mediapipe, developed by Google, is a powerful library that provides a wide range
 
 ## Creating the Dataset
 
-To train our emotion detection model, we first need a dataset. We utilize the `csv` module to collect and organize the coordinates of facial landmarks provided by Mediapipe. I captured and labeled facial landmarks of my own various emotional states, creating a comprehensive dataset that serves as the foundation for our machine learning endeavors. The coordinates being created while I displayed these emotions states, it was cool that I got to create the dataset in such an interactive way in real time, seeing my facial expressions being translated into thounsands of numerical values (coordinates).
+To train our emotion detection model, we first need a dataset. I utilized the `csv` module to collect and organize the coordinates of facial landmarks provided by Mediapipe. I captured and labeled facial landmarks of my own various emotional states, creating a comprehensive dataset that serves as the foundation for our machine learning endeavors. The coordinates being created while I displayed these emotions states, it was cool that I got to create the dataset in such an interactive way in real time, seeing my facial expressions being translated into thounsands of numerical values (coordinates).
 
 ## Real-Time Facial Expression Analysis
 

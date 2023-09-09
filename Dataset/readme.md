@@ -1,4 +1,4 @@
-## Dataset Introduction
+## READ- The Dataset
 
 This project makes up a large facial dataset that is too large to view on GitHub. The dataset will be updated periodically. Versions of the dataset can be downloaded as zipped folders.
 

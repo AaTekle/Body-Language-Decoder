@@ -16,26 +16,24 @@ Welcome to my Body Language Decoder project! This project aims to decode human e
 
 ## Introduction
 
-Body language is a crucial aspect of human communication, often conveying emotions and reactions that may go unspoken. This project delves into the realm of computer vision and machine learning to decode these non-verbal cues and provide insights into human behavior.
+Body language is a crucial aspect of human communication, conveying emotions and reactions that may go unspoken. This project dives into the realm of computer vision and machine learning to decode these non-verbal cues, providing insights into human behavior.
 
 ## Technical Overview of Mediapipe
 ![MediaPipe](https://editor.analyticsvidhya.com/uploads/53474logo_horizontal_color.png)
-Mediapipe, developed by Google, is a powerful library that provides a wide range of pre-trained models for various computer vision tasks, ex. facial landmark detection. It allowed me to easily extract facial landmarks from images / video streams, enabling accurate tracking of key points on the face, such as eyes, nose, mouth, and eyebrows. This technology forms the backbone of our project, enabling us to analyze and interpret facial expressions.
+Mediapipe, developed by Google, is a Computer Vision library that provides a wide range of pre-trained models for various computer vision tasks, ex. facial landmark detection. It allowed me to easily extract facial landmarks from images / video streams, enabling accurate tracking of key points on the face, such as eyes, nose, mouth, and eyebrows. This technology forms the backbone of this project, enabling me to analyze and interpret facial expressions.
 
 ## Creating the Dataset
 
-To train our emotion detection model, we first need a dataset. I utilized the `csv` module to collect and organize the coordinates of facial landmarks provided by Mediapipe. I captured and labeled facial landmarks of my own various emotional states, creating a comprehensive dataset that serves as the foundation for our machine learning project. The coordinates being created in real time while I displayed emotional states, it was cool that I got to create the dataset in such an interactive way in real time, seeing my facial expressions being translated into thounsands of numerical values (coordinates).
+Data is needed pre-training, Utilized the `csv` module to collect and organize the coordinates of facial landmarks provided by Mediapipe. I captured and labeled facial landmarks of my own various emotional states, creating a dataset. The coordinates were created in real time while I displayed emotional states, it was cool that I got to create the dataset in such an interactive way in real time, seeing my facial expressions being translated into thounsands of numerical values (coordinates).
 
 ## Real-Time Facial Expression Analysis
 
-The core functionality of the Body Language Decoder lies in its real-time facial expression analysis. By leveraging OpenCV (cv2), we capture video frames from a webcam feed and process them using the Mediapipe facial landmark model. The coordinates of facial landmarks are then saved to the dataset, creating a dynamic representation of facial expressions over time.
+The core functionality of the Body Language Decoder lies in its real-time facial expression analysis. By leveraging OpenCV (cv2), I captured video frames from a webcam feed and process them using the Mediapipe facial landmark model. The coordinates of facial landmarks are then saved to the dataset, creating a dynamic representation of facial expressions over time.
 
 ## Probability Box/Function
 
-I employed the power of NumPy to construct and display a probability box or function within the Body Language Decoder. This visual representation offers users an intuitive way to understand the likelihood of different emotions being expressed based on the facial landmark data.
+Used NumPy to construct and display a probability box or function within the Body Language Decoder. This visual representation offers users an intuitive way to understand the likelihood of different emotions being expressed based on the facial landmark data.
 
-## Future Enhancements
+## Conclusion:
 
-This Body Language Decoder project is an ongoing endeavor. In the future, I plan to enhance the model by incorporating additional emotions and reactions, expanding the dataset to include a broader range of expressions/emotions. Additionally, I will explore optimization techniques to improve the accuracy and efficiency of the emotion detection model. By continuously updating and refining the model, I aim to create a valuable tool for understanding and interpreting human body language.
-
-Thank you for exploring my Body Language Decoder project. I hope this tool provides you with insights into the fascinating world of non-verbal communication. If you have any questions or suggestions, please feel free to reach out to me. Happy decoding!
+Thank you for exploring my Body Language Decoder project. I hope this tool provides insight into CV when it comes to decoding human expression. If you have any questions or suggestions, please feel free to reach out to me!

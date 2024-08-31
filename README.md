@@ -27,7 +27,7 @@ Data is needed pre-training, Utilized the `csv` module to collect & organize the
 
 ## Real-Time Facial Expression Analysis
 
-The core functionality of the Body Language Decoder lies in the real-time facial expression analysis. OpenCV (cv2) allowed me to capture video frames from a webcam feed and process them using the Mediapipe facial landmark model. The coordinates of facial landmarks are then saved to the dataset, creating a representation of facial expressions (features).
+OpenCV (cv2) allowed me to capture video frames from a webcam feed and process them using the Mediapipe facial landmark model. The coordinates of facial landmarks are then saved to the dataset, creating a representation of facial expressions (features).
 
 ## Probability Box/Function
 

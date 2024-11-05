@@ -2,6 +2,8 @@
 
 Welcome to my Body Language Decoder project! This project aims to decode human emotions and reactions by analyzing facial expressions and gestures using computer vision techniques and machine learning. The project leverages Python, Mediapipe, OpenCV (cv2), csv, NumPy, Pandas, scikit-learn (sklearn), and pickle to create an insightful tool for understanding body language.
 
+Idea via @nicknochnack
+
 ![](https://github.com/AaTekle/Body-Language-Decoder/blob/main/gif/0816.gif)
 
 

@@ -17,7 +17,7 @@ Idea via @nicknochnack
 
 ## Introduction
 
-This project uses computer vision and machine learning to decode body language, providing insights into human behavior.
+This project uses computer vision and machine learning to decode body language.
 
 ## Technical Overview of Mediapipe
 ![MediaPipe](https://editor.analyticsvidhya.com/uploads/53474logo_horizontal_color.png)

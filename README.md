@@ -25,7 +25,7 @@ Mediapipe, developed by Google, is a Computer Vision library that provides a pre
 
 ## Creating the Dataset
 
-Data is needed pre-training, Utilized the `csv` module to collect & organize the coordinates of facial landmarks via Mediapipe. I captured and labeled facial landmarks of my own various emotional states, creating a dataset. The coordinates were created in real time while I displayed emotional states, it was cool that I got to create the dataset in such an interactive way within real time, seeing my facial expressions being translated into thounsands of numerical values (coordinates).
+Data is needed pre-training, I used the `csv` module to collect & organize the coordinates of facial landmarks via Mediapipe. I captured and labeled facial landmarks of my own various emotional states, creating a dataset. The coordinates were created in real time while I displayed emotional states, it was cool that I got to create the dataset in such an interactive way within real time, seeing my facial expressions being translated into thounsands of numerical values (coordinates).
 
 ## Real-Time Facial Expression Analysis
 
@@ -33,7 +33,7 @@ OpenCV (cv2) allowed me to capture video frames from a webcam feed and process t
 
 ## Probability Box/Function
 
-Used NumPy to construct and display a probability box or function within the Body Language Decoder. This visual representation allows one to understand the likelihood of different emotions being expressed based on the facial landmark data.
+I used NumPy to construct and display a probability box or function within the Body Language Decoder. This visual representation allows one to understand the likelihood of different emotions being expressed based on the facial landmark data.
 
 ## Conclusion:
 

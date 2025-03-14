@@ -34,7 +34,3 @@ OpenCV (cv2) allowed me to capture video frames from a webcam feed and process t
 ## Probability Box/Function
 
 I used NumPy to construct and display a probability box or function within the Body Language Decoder. This visual representation allows one to understand the likelihood of different emotions being expressed based on the facial landmark data.
-
-## Conclusion:
-
-Thank you for looking at my Body Language Decoder project.

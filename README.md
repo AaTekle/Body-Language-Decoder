@@ -1,6 +1,6 @@
 # Body Language Decoder
 
-Welcome to my Body Language Decoder project! This project aims to decode human emotions and reactions by analyzing facial expressions and gestures using computer vision techniques and machine learning. The project leverages Python, Mediapipe, OpenCV (cv2), csv, NumPy, Pandas, scikit-learn (sklearn), and pickle to create an insightful tool for understanding body language.
+This project decodes human emotions and reactions by analyzing facial expressions and gestures using computer vision techniques and machine learning. The project uses Python, Mediapipe, OpenCV (cv2), csv, NumPy, Pandas, scikit-learn (sklearn), and pickle to create a tool to understand body language.
 
 Idea via @nicknochnack
 
@@ -14,10 +14,6 @@ Idea via @nicknochnack
 - [Creating the Dataset](#creating-the-dataset)
 - [Real-Time Facial Expression Analysis](#real-time-facial-expression-analysis)
 - [Probability Box/Function](#probability-boxfunction)
-
-## Introduction
-
-This project uses computer vision and machine learning to decode body language.
 
 ## Technical Overview of Mediapipe
 ![MediaPipe](https://editor.analyticsvidhya.com/uploads/53474logo_horizontal_color.png)

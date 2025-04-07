@@ -17,7 +17,7 @@ Idea via @nicknochnack
 
 ## Technical Overview of Mediapipe
 ![MediaPipe](https://editor.analyticsvidhya.com/uploads/53474logo_horizontal_color.png)
-Mediapipe, developed by Google, is a Computer Vision library that provides a pre-trained models for various computer vision tasks, e.g. facial landmark detection. It allowed me to easily extract facial landmarks from images / video streams, enabling accurate tracking of key points on the face, such as eyes, nose, mouth, and eyebrows. This library forms the backbone of this project, enabling me to analyze and interpret facial expressions.
+Mediapipe, developed by Google, is a Computer Vision library that provides a pre-trained models for various computer vision tasks, e.g. facial landmark detection. It allowed me to easily extract facial landmarks from images / video streams, enabling accurate tracking of key points on the face, such as eyes, nose, mouth, and eyebrows. This library allows me to analyze and interpret facial expressions.
 
 ## Creating the Dataset
 
